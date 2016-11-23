@@ -1,0 +1,22 @@
+{
+  "name": "emmet-css",
+  "version": "1.2.0",
+  "description": "mydas angular fullstack generator",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gto830226/EmmetCSS.git"
+  },
+  "keywords": [
+    "mydas-emmet-css"
+  ],
+  "author": "EJay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gto830226/EmmetCSS/issues"
+  },
+  "homepage": "https://github.com/gto830226/EmmetCSS#readme"
+}
