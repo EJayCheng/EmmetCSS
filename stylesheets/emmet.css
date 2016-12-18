@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* 
   Mydas_Egg - project inital generator
-  v1.2 | 2016-11-21 EJay - add something css class. ex: .vv, .vh
-  v1.1 | 2016-11-21 EJay - all element use box-sizing: border-box & new something css class
-  v1.0 | 2016-11-21 EJay - Create Emmet CSS
+  v1.2.2 | 2016-11-21 EJay - add something css class. ex: .vv, .vh, .cur
+  v1.1.0 | 2016-11-21 EJay - all element use box-sizing: border-box & new something css class
+  v1.0.1 | 2016-11-21 EJay - Create Emmet CSS
   Copyright © 2016 Anyong Fintech Co., Ltd.
 */
 /* 
@@ -69,29 +69,29 @@ table {
   border-spacing: 0;
 }
 
-/* line 11, ../sass/emmet.scss */
+/* line 12, ../sass/emmet.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/emmet.scss */
+/* line 18, ../sass/emmet.scss */
 textarea:focus,
 input:focus {
   outline: none;
 }
 
-/* line 22, ../sass/emmet.scss */
+/* line 23, ../sass/emmet.scss */
 a {
   color: inherit;
   text-decoration: none;
   outline: none;
 }
-/* line 26, ../sass/emmet.scss */
+/* line 27, ../sass/emmet.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../sass/emmet.scss */
+/* line 32, ../sass/emmet.scss */
 html,
 body {
   display: block;
@@ -107,7 +107,7 @@ body {
   border: 0em;
 }
 
-/* line 47, ../sass/emmet.scss */
+/* line 48, ../sass/emmet.scss */
 .c-dk-0,
 .c-dark-0,
 .c-dk,
@@ -115,49 +115,49 @@ body {
   color: #010B15;
 }
 
-/* line 54, ../sass/emmet.scss */
+/* line 55, ../sass/emmet.scss */
 .c-dk-1,
 .c-dark-1 {
   color: #333;
 }
 
-/* line 59, ../sass/emmet.scss */
+/* line 60, ../sass/emmet.scss */
 .c-dk-2,
 .c-dark-2 {
   color: #343B43;
 }
 
-/* line 64, ../sass/emmet.scss */
+/* line 65, ../sass/emmet.scss */
 .c-dk-3,
 .c-dark-3 {
   color: #696C73;
 }
 
-/* line 69, ../sass/emmet.scss */
+/* line 70, ../sass/emmet.scss */
 .c-dk-4,
 .c-dark-4 {
   color: #9A9DA4;
 }
 
-/* line 74, ../sass/emmet.scss */
+/* line 75, ../sass/emmet.scss */
 .c-dk-5,
 .c-dark-5 {
   color: #CECFD3;
 }
 
-/* line 80, ../sass/emmet.scss */
+/* line 81, ../sass/emmet.scss */
 .c-mj-0,
 .c-major-0 {
   color: #012C4C;
 }
 
-/* line 85, ../sass/emmet.scss */
+/* line 86, ../sass/emmet.scss */
 .c-mj-1,
 .c-major-1 {
   color: #01446F;
 }
 
-/* line 90, ../sass/emmet.scss */
+/* line 91, ../sass/emmet.scss */
 .c-mj,
 .c-mj-2,
 .c-major,
@@ -165,31 +165,31 @@ body {
   color: #035994;
 }
 
-/* line 97, ../sass/emmet.scss */
+/* line 98, ../sass/emmet.scss */
 .c-mj-3,
 .c-major-3 {
   color: #367AAB;
 }
 
-/* line 102, ../sass/emmet.scss */
+/* line 103, ../sass/emmet.scss */
 .c-mj-4,
 .c-major-4 {
   color: #689CC1;
 }
 
-/* line 108, ../sass/emmet.scss */
+/* line 109, ../sass/emmet.scss */
 .c-mn-0,
 .c-minor-0 {
   color: #7D4B10;
 }
 
-/* line 113, ../sass/emmet.scss */
+/* line 114, ../sass/emmet.scss */
 .c-mn-1,
 .c-minor-1 {
   color: #BB7015;
 }
 
-/* line 118, ../sass/emmet.scss */
+/* line 119, ../sass/emmet.scss */
 .c-mn,
 .c-mn-2,
 .c-minor,
@@ -197,31 +197,31 @@ body {
   color: #FB971D;
 }
 
-/* line 125, ../sass/emmet.scss */
+/* line 126, ../sass/emmet.scss */
 .c-mn-3,
 .c-minor-3 {
   color: #FCAC4B;
 }
 
-/* line 130, ../sass/emmet.scss */
+/* line 131, ../sass/emmet.scss */
 .c-mn-4,
 .c-minor-4 {
   color: #FFC178;
 }
 
-/* line 136, ../sass/emmet.scss */
+/* line 137, ../sass/emmet.scss */
 .bgc-mn-0,
 .bgc-minor-0 {
   background-color: #7D4B10;
 }
 
-/* line 141, ../sass/emmet.scss */
+/* line 142, ../sass/emmet.scss */
 .bgc-mn-1,
 .bgc-minor-1 {
   background-color: #BB7015;
 }
 
-/* line 146, ../sass/emmet.scss */
+/* line 147, ../sass/emmet.scss */
 .bgc-mn,
 .bgc-mn-2,
 .bgc-minor,
@@ -229,31 +229,31 @@ body {
   background-color: #FB971D;
 }
 
-/* line 153, ../sass/emmet.scss */
+/* line 154, ../sass/emmet.scss */
 .bgc-mn-3,
 .bgc-minor-3 {
   background-color: #FCAC4B;
 }
 
-/* line 158, ../sass/emmet.scss */
+/* line 159, ../sass/emmet.scss */
 .bgc-mn-4,
 .bgc-minor-4 {
   background-color: #FFC178;
 }
 
-/* line 164, ../sass/emmet.scss */
+/* line 165, ../sass/emmet.scss */
 .bgc-mj-0,
 .bgc-major-0 {
   background-color: #012C4C;
 }
 
-/* line 169, ../sass/emmet.scss */
+/* line 170, ../sass/emmet.scss */
 .bgc-mj-1,
 .bgc-major-1 {
   background-color: #01446F;
 }
 
-/* line 174, ../sass/emmet.scss */
+/* line 175, ../sass/emmet.scss */
 .bgc-mj,
 .bgc-mj-2,
 .bgc-major,
@@ -261,31 +261,31 @@ body {
   background-color: #035994;
 }
 
-/* line 181, ../sass/emmet.scss */
+/* line 182, ../sass/emmet.scss */
 .bgc-mj-3,
 .bgc-major-3 {
   background-color: #367AAB;
 }
 
-/* line 186, ../sass/emmet.scss */
+/* line 187, ../sass/emmet.scss */
 .bgc-mj-4,
 .bgc-major-4 {
   background-color: #689CC1;
 }
 
-/* line 192, ../sass/emmet.scss */
+/* line 193, ../sass/emmet.scss */
 .bgc-mn-0,
 .bgc-minor-0 {
   background-color: #7D4B10;
 }
 
-/* line 197, ../sass/emmet.scss */
+/* line 198, ../sass/emmet.scss */
 .bgc-mn-1,
 .bgc-minor-1 {
   background-color: #BB7015;
 }
 
-/* line 202, ../sass/emmet.scss */
+/* line 203, ../sass/emmet.scss */
 .bgc-mn,
 .bgc-mn-2,
 .bgc-minor,
@@ -293,167 +293,309 @@ body {
   background-color: #FB971D;
 }
 
-/* line 209, ../sass/emmet.scss */
+/* line 210, ../sass/emmet.scss */
 .bgc-mn-3,
 .bgc-minor-3 {
   background-color: #FCAC4B;
 }
 
-/* line 214, ../sass/emmet.scss */
+/* line 215, ../sass/emmet.scss */
 .bgc-mn-4,
 .bgc-minor-4 {
   background-color: #FFC178;
 }
 
-/* line 220, ../sass/emmet.scss */
+/* line 221, ../sass/emmet.scss */
+.curp {
+  cursor: pointer;
+}
+
+/* line 225, ../sass/emmet.scss */
+.curd {
+  cursor: default;
+}
+
+/* line 229, ../sass/emmet.scss */
+.curt {
+  cursor: text;
+}
+
+/* line 233, ../sass/emmet.scss */
+.curc {
+  cursor: crosshair;
+}
+
+/* line 237, ../sass/emmet.scss */
+.curhe {
+  cursor: help;
+}
+
+/* line 241, ../sass/emmet.scss */
+.curm {
+  cursor: move;
+}
+
+/* line 245, ../sass/emmet.scss */
+.curnd {
+  cursor: no-drop;
+}
+
+/* line 249, ../sass/emmet.scss */
+.curna {
+  cursor: not-allowed;
+}
+
+/* line 253, ../sass/emmet.scss */
+.curpg {
+  cursor: progress;
+}
+
+/* line 257, ../sass/emmet.scss */
+.curw {
+  cursor: wait;
+}
+
+/* line 261, ../sass/emmet.scss */
+.curn {
+  cursor: none;
+}
+
+/* line 265, ../sass/emmet.scss */
+.currr {
+  cursor: row-resize;
+}
+
+/* line 269, ../sass/emmet.scss */
+.curcr {
+  cursor: col-resize;
+}
+
+/* line 273, ../sass/emmet.scss */
+.curcm {
+  cursor: context-menu;
+}
+
+/* line 277, ../sass/emmet.scss */
+.curcp {
+  cursor: copy;
+}
+
+/* line 281, ../sass/emmet.scss */
+.curce {
+  cursor: cell;
+}
+
+/* line 285, ../sass/emmet.scss */
+.curwr {
+  cursor: w-resize;
+}
+
+/* line 289, ../sass/emmet.scss */
+.curer {
+  cursor: e-resize;
+}
+
+/* line 293, ../sass/emmet.scss */
+.curnr {
+  cursor: n-resize;
+}
+
+/* line 297, ../sass/emmet.scss */
+.curswr {
+  cursor: sw-resize;
+}
+
+/* line 301, ../sass/emmet.scss */
+.curser {
+  cursor: se-resize;
+}
+
+/* line 305, ../sass/emmet.scss */
+.curnwr {
+  cursor: ne-resize;
+}
+
+/* line 309, ../sass/emmet.scss */
+.curner {
+  cursor: nw-resize;
+}
+
+/* line 313, ../sass/emmet.scss */
+.curzi {
+  cursor: zoom-in;
+}
+
+/* line 317, ../sass/emmet.scss */
+.curzo {
+  cursor: zoom-out;
+}
+
+/* line 321, ../sass/emmet.scss */
+.curg {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+/* line 325, ../sass/emmet.scss */
+.curgb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* line 329, ../sass/emmet.scss */
 .vv {
   visibility: visible;
 }
 
-/* line 224, ../sass/emmet.scss */
+/* line 333, ../sass/emmet.scss */
 .vh {
   visibility: hidden;
 }
 
-/* line 228, ../sass/emmet.scss */
+/* line 337, ../sass/emmet.scss */
+.vc {
+  visibility: collapse;
+}
+
+/* line 341, ../sass/emmet.scss */
 .bdn {
   border: none;
 }
 
-/* line 232, ../sass/emmet.scss */
+/* line 345, ../sass/emmet.scss */
 .mgn {
   margin: 0em;
 }
 
-/* line 236, ../sass/emmet.scss */
+/* line 349, ../sass/emmet.scss */
 .pdn {
   padding: 0em;
 }
 
-/* line 240, ../sass/emmet.scss */
+/* line 353, ../sass/emmet.scss */
 .dib {
   display: inline-block;
 }
 
-/* line 244, ../sass/emmet.scss */
+/* line 357, ../sass/emmet.scss */
 .mn .db {
   display: block;
 }
 
-/* line 248, ../sass/emmet.scss */
+/* line 361, ../sass/emmet.scss */
 .dn {
   display: none;
 }
 
-/* line 252, ../sass/emmet.scss */
+/* line 365, ../sass/emmet.scss */
 .clb {
   clear: both;
 }
 
-/* line 256, ../sass/emmet.scss */
+/* line 369, ../sass/emmet.scss */
 .fl {
   float: left;
 }
 
-/* line 260, ../sass/emmet.scss */
+/* line 373, ../sass/emmet.scss */
 .fr {
   float: right;
 }
 
-/* line 264, ../sass/emmet.scss */
+/* line 377, ../sass/emmet.scss */
 .tac {
   text-align: center;
 }
 
-/* line 268, ../sass/emmet.scss */
+/* line 381, ../sass/emmet.scss */
 .tar {
   text-align: right;
 }
 
-/* line 272, ../sass/emmet.scss */
+/* line 385, ../sass/emmet.scss */
 .tal {
   text-align: left;
 }
 
-/* line 276, ../sass/emmet.scss */
+/* line 389, ../sass/emmet.scss */
 .taj {
   text-align: justify;
 }
 
-/* line 280, ../sass/emmet.scss */
+/* line 393, ../sass/emmet.scss */
 .bxz,
 .bx,
 .bxzbb {
   box-sizing: border-box;
 }
 
-/* line 286, ../sass/emmet.scss */
+/* line 399, ../sass/emmet.scss */
 .ovh {
   overflow: hidden;
 }
 
-/* line 290, ../sass/emmet.scss */
+/* line 403, ../sass/emmet.scss */
 .ovxh {
   overflow-x: hidden;
 }
 
-/* line 294, ../sass/emmet.scss */
+/* line 407, ../sass/emmet.scss */
 .ovyh {
   overflow-y: hidden;
 }
 
-/* line 298, ../sass/emmet.scss */
+/* line 411, ../sass/emmet.scss */
 .ovxa {
   overflow-x: auto;
 }
 
-/* line 302, ../sass/emmet.scss */
+/* line 415, ../sass/emmet.scss */
 .ovya {
   overflow-y: auto;
 }
 
-/* line 306, ../sass/emmet.scss */
+/* line 419, ../sass/emmet.scss */
 .ova {
   overflow: auto;
 }
 
-/* line 310, ../sass/emmet.scss */
+/* line 423, ../sass/emmet.scss */
 .posa {
   position: absolute;
 }
 
-/* line 314, ../sass/emmet.scss */
+/* line 427, ../sass/emmet.scss */
 .posr {
   position: relative;
 }
 
-/* line 318, ../sass/emmet.scss */
+/* line 431, ../sass/emmet.scss */
 .posf {
   position: fixed;
 }
 
-/* line 322, ../sass/emmet.scss */
+/* line 435, ../sass/emmet.scss */
 .full {
   width: 100%;
   height: 100%;
 }
 
-/* line 327, ../sass/emmet.scss */
+/* line 440, ../sass/emmet.scss */
 .fh {
   height: 100%;
 }
 
-/* line 331, ../sass/emmet.scss */
+/* line 444, ../sass/emmet.scss */
 .fw {
   width: 100%;
 }
 
-/* line 335, ../sass/emmet.scss */
+/* line 448, ../sass/emmet.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 340, ../sass/emmet.scss */
+/* line 453, ../sass/emmet.scss */
 .df,
 .dfr,
 .flex-row,
@@ -473,7 +615,7 @@ body {
           align-items: flex-start;
 }
 
-/* line 350, ../sass/emmet.scss */
+/* line 463, ../sass/emmet.scss */
 .dfc,
 .fcol,
 .flex-column {
@@ -492,7 +634,7 @@ body {
           align-items: flex-start;
 }
 
-/* line 359, ../sass/emmet.scss */
+/* line 472, ../sass/emmet.scss */
 .flex-align-end {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -502,7 +644,7 @@ body {
           align-items: flex-end;
 }
 
-/* line 364, ../sass/emmet.scss */
+/* line 477, ../sass/emmet.scss */
 .flex-align-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,7 +654,7 @@ body {
           align-items: center;
 }
 
-/* line 369, ../sass/emmet.scss */
+/* line 482, ../sass/emmet.scss */
 .flex-stretch {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,7 +664,7 @@ body {
           align-items: stretch;
 }
 
-/* line 374, ../sass/emmet.scss */
+/* line 487, ../sass/emmet.scss */
 .flex-baseline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -532,7 +674,7 @@ body {
           align-items: baseline;
 }
 
-/* line 379, ../sass/emmet.scss */
+/* line 492, ../sass/emmet.scss */
 .flex-reverse {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -543,7 +685,7 @@ body {
           flex-direction: row-reverse;
 }
 
-/* line 384, ../sass/emmet.scss */
+/* line 497, ../sass/emmet.scss */
 .flex-column-reverse {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,7 +696,7 @@ body {
           flex-direction: column-reverse;
 }
 
-/* line 389, ../sass/emmet.scss */
+/* line 502, ../sass/emmet.scss */
 .flex-justify-end {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,7 +706,7 @@ body {
           justify-content: flex-end;
 }
 
-/* line 394, ../sass/emmet.scss */
+/* line 507, ../sass/emmet.scss */
 .flex-justify-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -574,7 +716,7 @@ body {
           justify-content: center;
 }
 
-/* line 399, ../sass/emmet.scss */
+/* line 512, ../sass/emmet.scss */
 .flex-space-between {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -584,7 +726,7 @@ body {
           justify-content: space-between;
 }
 
-/* line 404, ../sass/emmet.scss */
+/* line 517, ../sass/emmet.scss */
 .flex-space-around {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -593,7 +735,7 @@ body {
       justify-content: space-around;
 }
 
-/* line 409, ../sass/emmet.scss */
+/* line 522, ../sass/emmet.scss */
 .f1,
 .flex1 {
   -webkit-box-flex: 1;
@@ -601,7 +743,7 @@ body {
           flex: 1;
 }
 
-/* line 414, ../sass/emmet.scss */
+/* line 527, ../sass/emmet.scss */
 .f2,
 .flex2 {
   -webkit-box-flex: 2;
@@ -609,7 +751,7 @@ body {
           flex: 2;
 }
 
-/* line 419, ../sass/emmet.scss */
+/* line 532, ../sass/emmet.scss */
 .f3,
 .flex3 {
   -webkit-box-flex: 3;
@@ -617,7 +759,7 @@ body {
           flex: 3;
 }
 
-/* line 424, ../sass/emmet.scss */
+/* line 537, ../sass/emmet.scss */
 .f4,
 .flex4 {
   -webkit-box-flex: 4;
@@ -625,7 +767,7 @@ body {
           flex: 4;
 }
 
-/* line 429, ../sass/emmet.scss */
+/* line 542, ../sass/emmet.scss */
 .f5,
 .flex5 {
   -webkit-box-flex: 5;
@@ -633,7 +775,7 @@ body {
           flex: 5;
 }
 
-/* line 434, ../sass/emmet.scss */
+/* line 547, ../sass/emmet.scss */
 .f6,
 .flex6 {
   -webkit-box-flex: 6;
@@ -641,7 +783,7 @@ body {
           flex: 6;
 }
 
-/* line 439, ../sass/emmet.scss */
+/* line 552, ../sass/emmet.scss */
 .f7,
 .flex7 {
   -webkit-box-flex: 7;
@@ -649,7 +791,7 @@ body {
           flex: 7;
 }
 
-/* line 444, ../sass/emmet.scss */
+/* line 557, ../sass/emmet.scss */
 .f8,
 .flex8 {
   -webkit-box-flex: 8;
@@ -657,10 +799,96 @@ body {
           flex: 8;
 }
 
-/* line 449, ../sass/emmet.scss */
+/* line 562, ../sass/emmet.scss */
 .f9,
 .flex9 {
   -webkit-box-flex: 9;
       -ms-flex: 9;
           flex: 9;
+}
+
+/* line 567, ../sass/emmet.scss */
+.ord,
+.ord0 {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+/* line 572, ../sass/emmet.scss */
+.ord1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+/* line 576, ../sass/emmet.scss */
+.ord2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+/* line 580, ../sass/emmet.scss */
+.ord3 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+/* line 584, ../sass/emmet.scss */
+.ord4 {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+/* line 588, ../sass/emmet.scss */
+.ord5 {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+/* line 592, ../sass/emmet.scss */
+.ord6 {
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
+/* line 596, ../sass/emmet.scss */
+.ord7 {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+}
+
+/* line 600, ../sass/emmet.scss */
+.ord8 {
+  -webkit-box-ordinal-group: 9;
+      -ms-flex-order: 8;
+          order: 8;
+}
+
+/* line 604, ../sass/emmet.scss */
+.ord9 {
+  -webkit-box-ordinal-group: 10;
+      -ms-flex-order: 9;
+          order: 9;
+}
+
+/* line 608, ../sass/emmet.scss */
+.wown {
+  word-wrap: none;
+}
+
+/* line 612, ../sass/emmet.scss */
+.wownm {
+  word-spacing: normal;
+}
+
+/* line 616, ../sass/emmet.scss */
+.wowb {
+  word-wrap: break-word;
 }

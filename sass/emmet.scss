@@ -1,13 +1,14 @@
 /* 
   Mydas_Egg - project inital generator
-  v1.2 | 2016-11-21 EJay - add something css class. ex: .vv, .vh
-  v1.1 | 2016-11-21 EJay - all element use box-sizing: border-box & new something css class
-  v1.0 | 2016-11-21 EJay - Create Emmet CSS
+  v1.2.2 | 2016-11-21 EJay - add something css class. ex: .vv, .vh, .cur
+  v1.1.0 | 2016-11-21 EJay - all element use box-sizing: border-box & new something css class
+  v1.0.1 | 2016-11-21 EJay - Create Emmet CSS
   Copyright © 2016 Anyong Fintech Co., Ltd.
 */
 
 @import './_variable.scss';
 @import './_reset.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -217,12 +218,124 @@ body {
 }
 
 // ---- 
+.curp {
+  cursor: pointer;
+}
+
+.curd {
+  cursor: default;
+}
+
+.curt {
+  cursor: text;
+}
+
+.curc {
+  cursor: crosshair;
+}
+
+.curhe {
+  cursor: help;
+}
+
+.curm {
+  cursor: move;
+}
+
+.curnd {
+  cursor: no-drop;
+}
+
+.curna {
+  cursor: not-allowed
+}
+
+.curpg {
+  cursor: progress;
+}
+
+.curw {
+  cursor: wait;
+}
+
+.curn {
+  cursor: none;
+}
+
+.currr {
+  cursor: row-resize;
+}
+
+.curcr {
+  cursor: col-resize;
+}
+
+.curcm {
+  cursor: context-menu;
+}
+
+.curcp {
+  cursor: copy;
+}
+
+.curce {
+  cursor: cell;
+}
+
+.curwr {
+  cursor: w-resize;
+}
+
+.curer {
+  cursor: e-resize;
+}
+
+.curnr {
+  cursor: n-resize;
+}
+
+.curswr {
+  cursor: sw-resize
+}
+
+.curser {
+  cursor: se-resize;
+}
+
+.curnwr {
+  cursor: ne-resize;
+}
+
+.curner {
+  cursor: nw-resize;
+}
+
+.curzi {
+  cursor: zoom-in;
+}
+
+.curzo {
+  cursor: zoom-out;
+}
+
+.curg {
+  cursor: grab;
+}
+
+.curgb {
+  cursor: grabbing;
+}
+
 .vv {
   visibility: visible;
 }
 
 .vh {
   visibility: hidden;
+}
+
+.vc {
+  visibility: collapse;
 }
 
 .bdn {
@@ -449,4 +562,57 @@ body {
 .f9,
 .flex9 {
   flex: 9;
+}
+
+.ord,
+.ord0 {
+  order: 0;
+}
+
+.ord1 {
+  order: 1;
+}
+
+.ord2 {
+  order: 2;
+}
+
+.ord3 {
+  order: 3;
+}
+
+.ord4 {
+  order: 4;
+}
+
+.ord5 {
+  order: 5;
+}
+
+.ord6 {
+  order: 6;
+}
+
+.ord7 {
+  order: 7;
+}
+
+.ord8 {
+  order: 8;
+}
+
+.ord9 {
+  order: 9;
+}
+
+.wown {
+  word-wrap: none;
+}
+
+.wownm {
+  word-spacing: normal;
+}
+
+.wowb {
+  word-wrap: break-word;
 }
