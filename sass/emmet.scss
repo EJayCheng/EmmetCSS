@@ -8,7 +8,6 @@
 
 @import './_variable.scss';
 @import './_reset.scss';
-
 * {
   box-sizing: border-box;
 }
@@ -462,6 +461,7 @@ body {
 
 .dfc,
 .fcol,
+.flex-col,
 .flex-column {
   display: flex;
   flex-direction: column;
