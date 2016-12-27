@@ -1,6 +1,8 @@
 # EmmetCSS
-  Mydas_Egg - project inital generator
+  Mydas_Egg - angular2 project inital generator
   
+  v1.2.5 | 2016-12-27 EJay - modify CIS color & add _mixin.scss
+
   v1.2.4 | 2016-12-26 EJay - modify something css class. ex: html, body
   
   v1.2.3 | 2016-12-26 EJay - add something css class. ex: .flex-col

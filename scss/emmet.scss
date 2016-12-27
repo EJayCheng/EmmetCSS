@@ -1,5 +1,6 @@
 /* 
   Mydas_Egg - project inital generator
+  v1.2.5 | 2016-12-27 EJay - modify CIS color & add _mixin.scss
   v1.2.4 | 2016-12-26 EJay - modify something css class. ex: html, body
   v1.2.3 | 2016-12-26 EJay - add something css class. ex: .flex-col
   v1.2.2 | 2016-11-21 EJay - add something css class. ex: .vv, .vh, .cur
@@ -72,6 +73,49 @@ body {
 .c-dk-5,
 .c-dark-5 {
   color: $cis-color-dark-5;
+}
+
+.c-dk-6,
+.c-dark-6 {
+  color: $cis-color-dark-6;
+}
+
+// ---- color cis color light
+.c-li-0,
+.c-light-0,
+.c-li,
+.c-light {
+  color: $cis-color-light;
+}
+
+.c-li-1,
+.c-light-1 {
+  color: $cis-color-light-1;
+}
+
+.c-li-2,
+.c-light-2 {
+  color: $cis-color-light-2;
+}
+
+.c-li-3,
+.c-light-3 {
+  color: $cis-color-light-3;
+}
+
+.c-li-4,
+.c-light-4 {
+  color: $cis-color-light-4;
+}
+
+.c-li-5,
+.c-light-5 {
+  color: $cis-color-light-5;
+}
+
+.c-li-6,
+.c-light-6 {
+  color: $cis-color-light-6;
 }
 
 // ---- color cis color major

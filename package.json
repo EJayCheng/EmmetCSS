@@ -1,7 +1,7 @@
 {
   "name": "emmet-css",
-  "version": "1.2.4",
-  "description": "mydas angular fullstack generator",
+  "version": "1.2.5",
+  "description": "mydas angular2 fullstack generator",
   "main": "",
   "scripts": {
     "test": ""
