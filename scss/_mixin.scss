@@ -1,3 +1,9 @@
 @mixin transition($type: all, $time: .1s, $easing: linear) {
   transition: $type $time $easing;
 }
+
+@mixin omitContent() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

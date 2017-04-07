@@ -1,5 +1,9 @@
 # EmmetCSS
-  Mydas_Egg - angular2 project inital generator
+  Emmet CSS lib(include css reset)
+
+  v1.2.7 | 2017-04-07 EJay - add function: omitContent
+  
+  v1.2.6 | 2017-03-24 EJay - modify html, body. remove font-size: 14px
   
   v1.2.5 | 2016-12-27 EJay - modify CIS color & add _mixin.scss
 

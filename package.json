@@ -1,7 +1,7 @@
 {
   "name": "emmet-css",
-  "version": "1.2.6",
-  "description": "mydas angular2 fullstack generator",
+  "version": "1.2.7",
+  "description": "emmet css lib(include css reset)",
   "main": "",
   "scripts": {
     "test": ""
