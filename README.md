@@ -21,6 +21,10 @@
   
   v1.0.0 | 2016-11-21 EJay - Create Emmet CSS
   
+# NPM
+```
+npm install emmet-css  
+```
 # License
   MIT License
 
