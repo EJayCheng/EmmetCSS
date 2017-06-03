@@ -1,6 +1,8 @@
 # EmmetCSS
   Emmet CSS lib(include css reset)
 
+  v1.2.9 | 2017-06-04 EJay - update Readme.md
+
   v1.2.8 | 2017-06-04 EJay - add pointer-event
 
   v1.2.7 | 2017-04-07 EJay - add function: omitContent
