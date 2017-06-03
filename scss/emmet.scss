@@ -1,5 +1,6 @@
 /* 
   Emmet CSS lib(include css reset)
+  v1.2.8 | 2017-06-04 EJay - add pointer-event
   v1.2.7 | 2017-04-07 EJay - add function: omitContent
   v1.2.6 | 2017-03-24 EJay - modify html, body. remove font-size: 14px
   v1.2.5 | 2016-12-27 EJay - modify CIS color & add _mixin.scss
@@ -39,7 +40,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  position: relative; // font-size: 14px;
+  position: relative;
   margin: 0em;
   border: none;
 }
@@ -393,20 +394,34 @@ body {
   padding: 0em;
 }
 
+.dpib,
 .dib {
   display: inline-block;
 }
 
-.mn .db {
+.mn,
+.db,
+.dpb {
   display: block;
 }
 
-.dn {
+.dn,
+.dpn {
   display: none;
 }
 
+.clr,
+.clrb,
 .clb {
   clear: both;
+}
+
+.clrr {
+  clear: right;
+}
+
+.clrl {
+  clear: left;
 }
 
 .fl {
@@ -415,6 +430,10 @@ body {
 
 .fr {
   float: right;
+}
+
+.vam {
+  vertical-align: middle;
 }
 
 .tac {
@@ -513,51 +532,61 @@ body {
   align-items: flex-start;
 }
 
+.fae,
 .flex-align-end {
   display: flex;
   align-items: flex-end;
 }
 
+.fac,
 .flex-align-center {
   display: flex;
   align-items: center;
 }
 
+.fs,
 .flex-stretch {
   display: flex;
   align-items: stretch;
 }
 
+.fb,
 .flex-baseline {
   display: flex;
   align-items: baseline;
 }
 
+.frv,
 .flex-reverse {
   display: flex;
   flex-direction: row-reverse;
 }
 
+.fcr,
 .flex-column-reverse {
   display: flex;
   flex-direction: column-reverse;
 }
 
+.fje,
 .flex-justify-end {
   display: flex;
   justify-content: flex-end;
 }
 
+.fjc,
 .flex-justify-center {
   display: flex;
   justify-content: center;
 }
 
+.fsb,
 .flex-space-between {
   display: flex;
   justify-content: space-between;
 }
 
+.fsa,
 .flex-space-around {
   display: flex;
   justify-content: space-around;
@@ -664,4 +693,12 @@ body {
 .omit,
 .omitContent {
   @include omitContent;
+}
+
+.pea {
+  pointer-events: auto;
+}
+
+.pen {
+  pointer-events: none;
 }
