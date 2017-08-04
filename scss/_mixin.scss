@@ -1,4 +1,4 @@
-@mixin transition($type: all, $time: .1s, $easing: linear) {
+@mixin transition($time: .1s, $type: all, $easing: linear) {
   transition: $type $time $easing;
 }
 
@@ -6,4 +6,51 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+@mixin halo() {
+  box-shadow: 0 0 3px #FFF;
+  @include transition();
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 0 7px rgba(52, 130, 181, .05), 0 0 17px rgba(52, 130, 181, .1);
+  }
+}
+
+@mixin shadow() {
+  box-shadow: 0 1px 7px rgba(0, 0, 0, .05), 0 7px 17px rgba(0, 0, 0, .1);
+}
+
+@mixin hover() {
+  &:hover {
+    @content
+  }
+}
+
+@mixin active() {
+  &:active {
+    @content
+  }
+}
+
+@mixin focus() {
+  &:focus {
+    @content
+  }
+}
+
+@mixin placeholder() {
+  &::-webkit-input-placeholder {
+    @content
+  }
+  &:-moz-placeholder {
+    @content
+  }
+  &::-moz-placeholder {
+    @content
+  }
+  &:-ms-input-placeholder {
+    @content
+  }
 }
