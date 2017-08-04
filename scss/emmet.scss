@@ -1,6 +1,6 @@
 /* 
   Emmet CSS lib(include css reset)
-  v1.2.10 | 2017-08-04 EJay - remove useless class
+  v1.2.11 | 2017-08-04 EJay - remove useless class
   v1.2.8 | 2017-06-04 EJay - add pointer-event
   v1.2.7 | 2017-04-07 EJay - add function: omitContent
   v1.2.6 | 2017-03-24 EJay - modify html, body. remove font-size: 14px
@@ -453,90 +453,23 @@ body {
   justify-content: space-around;
 }
 
-.f1,
-.flex1 {
-  flex: 1;
-}
-
-.f2,
-.flex2 {
-  flex: 2;
-}
-
-.f3,
-.flex3 {
-  flex: 3;
-}
-
-.f4,
-.flex4 {
-  flex: 4;
-}
-
-.f5,
-.flex5 {
-  flex: 5;
-}
-
-.f6,
-.flex6 {
-  flex: 6;
-}
-
-.f7,
-.flex7 {
-  flex: 7;
-}
-
-.f8,
-.flex8 {
-  flex: 8;
-}
-
-.f9,
-.flex9 {
-  flex: 9;
+@for $i from 1 through 20 {
+  .f#{$i},
+  .flex#{$i},
+  .flex-#{$i},
+  {
+    flex: $i;
+  }
+  .ord#{$i},
+  .ord-#{$i} {
+    order: 1;
+  }
 }
 
 .ord,
-.ord0 {
+.ord0,
+.ord-0 {
   order: 0;
-}
-
-.ord1 {
-  order: 1;
-}
-
-.ord2 {
-  order: 2;
-}
-
-.ord3 {
-  order: 3;
-}
-
-.ord4 {
-  order: 4;
-}
-
-.ord5 {
-  order: 5;
-}
-
-.ord6 {
-  order: 6;
-}
-
-.ord7 {
-  order: 7;
-}
-
-.ord8 {
-  order: 8;
-}
-
-.ord9 {
-  order: 9;
 }
 
 .wown {
