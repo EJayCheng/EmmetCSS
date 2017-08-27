@@ -1,6 +1,8 @@
 # EmmetCSS
   Emmet CSS lib(include css reset)
 
+  v1.2.11 | 2017-08-04 EJay - remove useless class
+
   v1.2.9 | 2017-06-04 EJay - update Readme.md
 
   v1.2.8 | 2017-06-04 EJay - add pointer-event

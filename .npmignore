@@ -2,9 +2,11 @@
 tmp
 .sass-cache
 node_modules
+config.rb
 dist
 npm-debug.log
 yarn.lock
 yarn-error.log
 tsconfig.json
+demo
 .vscode
