@@ -1,5 +1,6 @@
 /* 
   Emmet CSS lib(include css reset)
+  v1.2.12 | 2017-09-30 EJay - add top, left, bottom, right, etc
   v1.2.11 | 2017-08-04 EJay - remove useless class
   v1.2.8 | 2017-06-04 EJay - add pointer-event
   v1.2.7 | 2017-04-07 EJay - add function: omitContent
@@ -46,83 +47,6 @@ body {
   border: none;
 }
 
-// ---- color cis color dark
-.c-dk-0,
-.c-dark-0,
-.c-dk,
-.c-dark {
-  color: $cis-color-dark;
-}
-
-.c-dk-1,
-.c-dark-1 {
-  color: $cis-color-dark-1;
-}
-
-.c-dk-2,
-.c-dark-2 {
-  color: $cis-color-dark-2;
-}
-
-.c-dk-3,
-.c-dark-3 {
-  color: $cis-color-dark-3;
-}
-
-.c-dk-4,
-.c-dark-4 {
-  color: $cis-color-dark-4;
-}
-
-.c-dk-5,
-.c-dark-5 {
-  color: $cis-color-dark-5;
-}
-
-.c-dk-6,
-.c-dark-6 {
-  color: $cis-color-dark-6;
-}
-
-// ---- color cis color light
-.c-li-0,
-.c-light-0,
-.c-li,
-.c-light {
-  color: $cis-color-light;
-}
-
-.c-li-1,
-.c-light-1 {
-  color: $cis-color-light-1;
-}
-
-.c-li-2,
-.c-light-2 {
-  color: $cis-color-light-2;
-}
-
-.c-li-3,
-.c-light-3 {
-  color: $cis-color-light-3;
-}
-
-.c-li-4,
-.c-light-4 {
-  color: $cis-color-light-4;
-}
-
-.c-li-5,
-.c-light-5 {
-  color: $cis-color-light-5;
-}
-
-.c-li-6,
-.c-light-6 {
-  color: $cis-color-light-6;
-}
-
-// ---- 
 .curp {
   cursor: pointer;
 }
@@ -297,6 +221,22 @@ body {
   vertical-align: middle;
 }
 
+.vat {
+  vertical-align: top;
+}
+
+.vab {
+  vertical-align: bottom;
+}
+
+.vatt {
+  vertical-align: text-top;
+}
+
+.vatb {
+  vertical-align: text-bottom;
+}
+
 .tac {
   text-align: center;
 }
@@ -462,7 +402,7 @@ body {
   }
   .ord#{$i},
   .ord-#{$i} {
-    order: 1;
+    order: $i;
   }
 }
 
@@ -495,4 +435,76 @@ body {
 
 .pen {
   pointer-events: none;
+}
+
+.top {
+  top: 0%;
+}
+
+.top-full,
+.topf {
+  top: 100%;
+}
+
+.bottom {
+  bottom: 0%;
+}
+
+.bottom-full,
+.bottomf {
+  bottom: 100%;
+}
+
+.left {
+  left: 0%;
+}
+
+.left-full,
+.leftf {
+  left: 100%;
+}
+
+.right {
+  right: 0%;
+}
+
+.right-full,
+.rightf {
+  right: 100%;
+}
+
+.posa-center,
+.posa-c {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@for $i from 1 through length($color-dark) {
+  .c-dark-#{$i},
+  .c-dk-#{$i} {
+    color: nth($color-dark, $i);
+  }
+  .bgc-dark-#{$i},
+  .bgc-dk-#{$i} {
+    background-color: nth($color-dark, $i);
+  }
+  .c-light-#{$i},
+  .c-lt-#{$i} {
+    color: nth($color-light, $i);
+  }
+  .bgc-light-#{$i},
+  .bgc-lt-#{$i} {
+    background-color: nth($color-light, $i);
+  }
+}
+
+@for $i from 1 through length($color-flat) {
+  .c-flat-#{$i} {
+    color: nth($color-flat, $i);
+  }
+  .bgc-flat-#{$i} {
+    background-color: nth($color-flat, $i);
+  }
 }

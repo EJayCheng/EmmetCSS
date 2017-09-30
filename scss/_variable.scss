@@ -1,18 +1,38 @@
 //dark color
-$cis-color-dark: #000000;
-$cis-color-dark-0: #333333;
-$cis-color-dark-1: #666666;
-$cis-color-dark-2: #999999;
-$cis-color-dark-3: #CCCCCC;
-$cis-color-dark-4: #E6E6E6;
-$cis-color-dark-5: #F2F2F2;
-$cis-color-dark-6: #FFFFFF;
+$color-dark: #000000,
+#333333,
+#666666,
+#999999,
+#CCCCCC,
+#E6E6E6,
+#F2F2F2,
+#FFFFFF;
 //light color
-$cis-color-light: #FFFFFF;
-$cis-color-light-0: #F2F2F2;
-$cis-color-light-1: #E6E6E6;
-$cis-color-light-2: #CCCCCC;
-$cis-color-light-3: #999999;
-$cis-color-light-4: #666666;
-$cis-color-light-5: #333333;
-$cis-color-light-6: #000000;
+$color-light: #FFFFFF,
+#F2F2F2,
+#E6E6E6,
+#CCCCCC,
+#999999,
+#666666,
+#333333,
+#000000;
+//flat color
+$color-flat:#1ABC9C,
+#2ECC71,
+#27AE60,
+#3498DB,
+#2980B9,
+#9B59B6,
+#8E44AD,
+#34495E,
+#2C3E50,
+#F1C40F,
+#F39C12,
+#E67E22,
+#D35400,
+#E74C3C,
+#C0392B,
+#ECF0F1,
+#BDC3C7,
+#95A5A6,
+#7F8C8D;

@@ -1,6 +1,6 @@
 {
   "name": "emmet-css",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "emmet css lib(include css reset)",
   "main": "",
   "scripts": {

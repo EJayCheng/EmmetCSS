@@ -1,6 +1,8 @@
 # EmmetCSS
   Emmet CSS lib(include css reset)
 
+  v1.2.12 | 2017-09-30 EJay - add top, left, bottom, right, etc..
+
   v1.2.11 | 2017-08-04 EJay - remove useless class
 
   v1.2.9 | 2017-06-04 EJay - update Readme.md
