@@ -1,7 +1,11 @@
 $(() => {
+  let temp = [];
   let data = [];
   function deleteNote(_data) {
-    let data = _data.map(desc => desc.trim().split("//")[0]).filter(desc => desc != "").filter(desc => desc.indexOf("@import") == -1);
+    let data = _data
+      .map(desc => desc.trim().split("//")[0])
+      .filter(desc => desc != "")
+      .filter(desc => desc.indexOf("@import") == -1);
     let deleteFlag = false;
     for (let i in data) {
       let desc = data[i];
@@ -31,25 +35,57 @@ $(() => {
       if (desc.indexOf("}") != -1) {
         deepIndex--;
         if (deepIndex == 0) {
-          let classDesc = _data.slice(startIndex, i * 1 + 1).join("").trim();
-          let className = classDesc.split("{")[0].split(",").map(name => name.trim()).filter(name => name[0] == ".");
+          let classDesc = _data
+            .slice(startIndex, i * 1 + 1)
+            .join("")
+            .trim();
+          let className = classDesc
+            .split("{")[0]
+            .split(",")
+            .map(name => name.trim())
+            .filter(name => name[0] == ".");
           startIndex = i * 1 + 1;
           if (className.length == 0) continue;
-          let classAttr = classDesc.split("}").join("").split("{")[1].split(";").map(attr => attr.trim()).filter(attr => attr != "");
+          let classAttr = classDesc
+            .split("}")
+            .join("")
+            .split("{")[1]
+            .split(";")
+            .map(attr => attr.trim())
+            .filter(attr => attr != "");
           console.log(classDesc, className, classAttr);
-          data.push(classDesc.split(",").join(",\n").split("{").join("\n{\n    ").split(";").join(";\n    ").split(";\n    }").join("\n}"));
+          temp.push({
+            classDesc: classDesc,
+            className: className,
+            classAttr: classAttr
+          });
+          data.push(
+            classDesc
+              .split(",")
+              .join(",\n")
+              .split("{")
+              .join("\n{\n    ")
+              .split(";")
+              .join(";\n    ")
+              .split(";\n    }")
+              .join("\n}")
+          );
         }
       }
     }
     return data;
   }
-  $("#loader").load("../scss/emmet.scss", function (_data) {
+  $("#loader").load("../scss/emmet.scss", function(_data) {
     data = splitClass(deleteNote(_data.split("\n")));
-    // console.log(data);
+    console.log(JSON.stringify(temp));
   });
   let $searchInput = $("#searchInput");
   let $res = $("#res");
   $searchInput.keydown(() => {
-    $res.val(data.filter(desc => desc.indexOf($searchInput.val()) != -1).join("\n\n--------------\n\n"));
-  })
-})
+    $res.val(
+      data
+        .filter(desc => desc.indexOf($searchInput.val()) != -1)
+        .join("\n\n--------------\n\n")
+    );
+  });
+});

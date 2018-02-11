@@ -21,19 +21,88 @@
   License: none (public domain)
 */
 /* line 7, ../scss/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-main, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -45,33 +114,47 @@ time, mark, audio, video {
 /* 
   HTML5 display-role reset for older browsers 
 */
-/* line 30, ../scss/_reset.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+/* line 99, ../scss/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
   display: block;
 }
 
-/* line 34, ../scss/_reset.scss */
+/* line 113, ../scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 37, ../scss/_reset.scss */
-ol, ul {
+/* line 116, ../scss/_reset.scss */
+ol,
+ul {
   list-style: none;
 }
 
-/* line 40, ../scss/_reset.scss */
-blockquote, q {
+/* line 120, ../scss/_reset.scss */
+blockquote,
+q {
   quotes: none;
 }
-/* line 42, ../scss/_reset.scss */
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+/* line 123, ../scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
-/* line 47, ../scss/_reset.scss */
+/* line 129, ../scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -538,7 +621,7 @@ body {
   flex: 1;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord1,
 .ord-1 {
   order: 1;
@@ -551,7 +634,7 @@ body {
   flex: 2;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord2,
 .ord-2 {
   order: 2;
@@ -564,7 +647,7 @@ body {
   flex: 3;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord3,
 .ord-3 {
   order: 3;
@@ -577,7 +660,7 @@ body {
   flex: 4;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord4,
 .ord-4 {
   order: 4;
@@ -590,7 +673,7 @@ body {
   flex: 5;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord5,
 .ord-5 {
   order: 5;
@@ -603,7 +686,7 @@ body {
   flex: 6;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord6,
 .ord-6 {
   order: 6;
@@ -616,7 +699,7 @@ body {
   flex: 7;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord7,
 .ord-7 {
   order: 7;
@@ -629,7 +712,7 @@ body {
   flex: 8;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord8,
 .ord-8 {
   order: 8;
@@ -642,7 +725,7 @@ body {
   flex: 9;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord9,
 .ord-9 {
   order: 9;
@@ -655,7 +738,7 @@ body {
   flex: 10;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord10,
 .ord-10 {
   order: 10;
@@ -668,7 +751,7 @@ body {
   flex: 11;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord11,
 .ord-11 {
   order: 11;
@@ -681,7 +764,7 @@ body {
   flex: 12;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord12,
 .ord-12 {
   order: 12;
@@ -694,7 +777,7 @@ body {
   flex: 13;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord13,
 .ord-13 {
   order: 13;
@@ -707,7 +790,7 @@ body {
   flex: 14;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord14,
 .ord-14 {
   order: 14;
@@ -720,7 +803,7 @@ body {
   flex: 15;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord15,
 .ord-15 {
   order: 15;
@@ -733,7 +816,7 @@ body {
   flex: 16;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord16,
 .ord-16 {
   order: 16;
@@ -746,7 +829,7 @@ body {
   flex: 17;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord17,
 .ord-17 {
   order: 17;
@@ -759,7 +842,7 @@ body {
   flex: 18;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord18,
 .ord-18 {
   order: 18;
@@ -772,7 +855,7 @@ body {
   flex: 19;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord19,
 .ord-19 {
   order: 19;
@@ -785,35 +868,35 @@ body {
   flex: 20;
 }
 
-/* line 403, ../scss/emmet.scss */
+/* line 402, ../scss/emmet.scss */
 .ord20,
 .ord-20 {
   order: 20;
 }
 
-/* line 409, ../scss/emmet.scss */
+/* line 408, ../scss/emmet.scss */
 .ord,
 .ord0,
 .ord-0 {
   order: 0;
 }
 
-/* line 415, ../scss/emmet.scss */
+/* line 414, ../scss/emmet.scss */
 .wown {
   word-wrap: none;
 }
 
-/* line 419, ../scss/emmet.scss */
+/* line 418, ../scss/emmet.scss */
 .wownm {
   word-spacing: normal;
 }
 
-/* line 423, ../scss/emmet.scss */
+/* line 422, ../scss/emmet.scss */
 .wowb {
   word-wrap: break-word;
 }
 
-/* line 427, ../scss/emmet.scss */
+/* line 426, ../scss/emmet.scss */
 .omit,
 .omitContent {
   overflow: hidden;
@@ -821,447 +904,447 @@ body {
   white-space: nowrap;
 }
 
-/* line 432, ../scss/emmet.scss */
+/* line 431, ../scss/emmet.scss */
 .pea {
   pointer-events: auto;
 }
 
-/* line 436, ../scss/emmet.scss */
+/* line 435, ../scss/emmet.scss */
 .pen {
   pointer-events: none;
 }
 
-/* line 440, ../scss/emmet.scss */
+/* line 439, ../scss/emmet.scss */
 .top {
   top: 0%;
 }
 
-/* line 444, ../scss/emmet.scss */
-.top-full,
-.topf {
+/* line 443, ../scss/emmet.scss */
+.full-top,
+.ftop {
   top: 100%;
 }
 
-/* line 449, ../scss/emmet.scss */
+/* line 448, ../scss/emmet.scss */
 .bottom {
   bottom: 0%;
 }
 
-/* line 453, ../scss/emmet.scss */
-.bottom-full,
-.bottomf {
+/* line 452, ../scss/emmet.scss */
+.full-bottom,
+.fbottom {
   bottom: 100%;
 }
 
-/* line 458, ../scss/emmet.scss */
+/* line 457, ../scss/emmet.scss */
 .left {
   left: 0%;
 }
 
-/* line 462, ../scss/emmet.scss */
-.left-full,
-.leftf {
+/* line 461, ../scss/emmet.scss */
+.full-left,
+.fleft {
   left: 100%;
 }
 
-/* line 467, ../scss/emmet.scss */
+/* line 466, ../scss/emmet.scss */
 .right {
   right: 0%;
 }
 
-/* line 471, ../scss/emmet.scss */
-.right-full,
-.rightf {
+/* line 470, ../scss/emmet.scss */
+.full-right,
+.fright {
   right: 100%;
 }
 
-/* line 476, ../scss/emmet.scss */
+/* line 475, ../scss/emmet.scss */
 .posa-center,
-.posa-c {
+.posac {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-1,
 .c-dk-1 {
   color: #000000;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-1,
 .bgc-dk-1 {
   background-color: #000000;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-1,
 .c-lt-1 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-1,
 .bgc-lt-1 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-2,
 .c-dk-2 {
   color: #333333;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-2,
 .bgc-dk-2 {
   background-color: #333333;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-2,
 .c-lt-2 {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-2,
 .bgc-lt-2 {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-3,
 .c-dk-3 {
   color: #666666;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-3,
 .bgc-dk-3 {
   background-color: #666666;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-3,
 .c-lt-3 {
-  color: #E6E6E6;
+  color: #e6e6e6;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-3,
 .bgc-lt-3 {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-4,
 .c-dk-4 {
   color: #999999;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-4,
 .bgc-dk-4 {
   background-color: #999999;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-4,
 .c-lt-4 {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-4,
 .bgc-lt-4 {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-5,
 .c-dk-5 {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-5,
 .bgc-dk-5 {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-5,
 .c-lt-5 {
   color: #999999;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-5,
 .bgc-lt-5 {
   background-color: #999999;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-6,
 .c-dk-6 {
-  color: #E6E6E6;
+  color: #e6e6e6;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-6,
 .bgc-dk-6 {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-6,
 .c-lt-6 {
   color: #666666;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-6,
 .bgc-lt-6 {
   background-color: #666666;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-7,
 .c-dk-7 {
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-7,
 .bgc-dk-7 {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-7,
 .c-lt-7 {
   color: #333333;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-7,
 .bgc-lt-7 {
   background-color: #333333;
 }
 
-/* line 485, ../scss/emmet.scss */
+/* line 484, ../scss/emmet.scss */
 .c-dark-8,
 .c-dk-8 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-/* line 489, ../scss/emmet.scss */
+/* line 488, ../scss/emmet.scss */
 .bgc-dark-8,
 .bgc-dk-8 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-/* line 493, ../scss/emmet.scss */
+/* line 492, ../scss/emmet.scss */
 .c-light-8,
 .c-lt-8 {
   color: #000000;
 }
 
-/* line 497, ../scss/emmet.scss */
+/* line 496, ../scss/emmet.scss */
 .bgc-light-8,
 .bgc-lt-8 {
   background-color: #000000;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-1 {
-  color: #1ABC9C;
+  color: #1abc9c;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-1 {
-  background-color: #1ABC9C;
+  background-color: #1abc9c;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-2 {
-  color: #2ECC71;
+  color: #2ecc71;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-2 {
-  background-color: #2ECC71;
+  background-color: #2ecc71;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-3 {
-  color: #27AE60;
+  color: #27ae60;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-3 {
-  background-color: #27AE60;
+  background-color: #27ae60;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-4 {
-  color: #3498DB;
+  color: #3498db;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-4 {
-  background-color: #3498DB;
+  background-color: #3498db;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-5 {
-  color: #2980B9;
+  color: #2980b9;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-5 {
-  background-color: #2980B9;
+  background-color: #2980b9;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-6 {
-  color: #9B59B6;
+  color: #9b59b6;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-6 {
-  background-color: #9B59B6;
+  background-color: #9b59b6;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-7 {
-  color: #8E44AD;
+  color: #8e44ad;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-7 {
-  background-color: #8E44AD;
+  background-color: #8e44ad;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-8 {
-  color: #34495E;
+  color: #34495e;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-8 {
-  background-color: #34495E;
+  background-color: #34495e;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-9 {
-  color: #2C3E50;
+  color: #2c3e50;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-9 {
-  background-color: #2C3E50;
+  background-color: #2c3e50;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-10 {
-  color: #F1C40F;
+  color: #f1c40f;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-10 {
-  background-color: #F1C40F;
+  background-color: #f1c40f;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-11 {
-  color: #F39C12;
+  color: #f39c12;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-11 {
-  background-color: #F39C12;
+  background-color: #f39c12;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-12 {
-  color: #E67E22;
+  color: #e67e22;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-12 {
-  background-color: #E67E22;
+  background-color: #e67e22;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-13 {
-  color: #D35400;
+  color: #d35400;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-13 {
-  background-color: #D35400;
+  background-color: #d35400;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-14 {
-  color: #E74C3C;
+  color: #e74c3c;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-14 {
-  background-color: #E74C3C;
+  background-color: #e74c3c;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-15 {
-  color: #C0392B;
+  color: #c0392b;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-15 {
-  background-color: #C0392B;
+  background-color: #c0392b;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-16 {
-  color: #ECF0F1;
+  color: #ecf0f1;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-16 {
-  background-color: #ECF0F1;
+  background-color: #ecf0f1;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-17 {
-  color: #BDC3C7;
+  color: #bdc3c7;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-17 {
-  background-color: #BDC3C7;
+  background-color: #bdc3c7;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-18 {
-  color: #95A5A6;
+  color: #95a5a6;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-18 {
-  background-color: #95A5A6;
+  background-color: #95a5a6;
 }
 
-/* line 504, ../scss/emmet.scss */
+/* line 503, ../scss/emmet.scss */
 .c-flat-19 {
-  color: #7F8C8D;
+  color: #7f8c8d;
 }
 
-/* line 507, ../scss/emmet.scss */
+/* line 506, ../scss/emmet.scss */
 .bgc-flat-19 {
-  background-color: #7F8C8D;
+  background-color: #7f8c8d;
 }

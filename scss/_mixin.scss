@@ -1,4 +1,4 @@
-@mixin transition($time: .1s, $type: all, $easing: linear) {
+@mixin transition($time: 0.1s, $type: all, $easing: linear) {
   transition: $type $time $easing;
 }
 
@@ -8,49 +8,39 @@
   white-space: nowrap;
 }
 
-@mixin halo() {
-  box-shadow: 0 0 3px #FFF;
-  @include transition();
-  &:hover,
-  &:focus,
-  &:active {
-    box-shadow: 0 0 7px rgba(52, 130, 181, .05), 0 0 17px rgba(52, 130, 181, .1);
-  }
-}
-
 @mixin shadow() {
-  box-shadow: 0 1px 7px rgba(0, 0, 0, .05), 0 7px 17px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05), 0 7px 17px rgba(0, 0, 0, 0.1);
 }
 
 @mixin hover() {
   &:hover {
-    @content
+    @content;
   }
 }
 
 @mixin active() {
   &:active {
-    @content
+    @content;
   }
 }
 
 @mixin focus() {
   &:focus {
-    @content
+    @content;
   }
 }
 
 @mixin placeholder() {
   &::-webkit-input-placeholder {
-    @content
+    @content;
   }
   &:-moz-placeholder {
-    @content
+    @content;
   }
   &::-moz-placeholder {
-    @content
+    @content;
   }
   &:-ms-input-placeholder {
-    @content
+    @content;
   }
 }

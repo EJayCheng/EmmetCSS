@@ -1,18 +1,14 @@
 {
   "name": "emmet-css",
-  "version": "1.2.12",
-  "description": "emmet css lib(include css reset)",
+  "version": "1.3.0",
+  "description": "Emmet CSS libray(include CSS Reset)",
   "main": "",
-  "scripts": {
-    "test": ""
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gto830226/EmmetCSS.git"
   },
-  "keywords": [
-    "mydas-emmet-css"
-  ],
+  "keywords": ["emmet-css"],
   "author": "EJay",
   "license": "MIT",
   "bugs": {
